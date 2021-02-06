@@ -152,6 +152,7 @@ p {
     }
     .row.content {
         height: auto;
+        width: 90%;
     }
 }
 
