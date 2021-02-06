@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My CV</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <main>
+        <div class="snowflakes" aria-hidden="true">
+            <div class="snowflake">
+                ❅
+            </div>
+            <div class="snowflake">
+                ❅
+            </div>
+            <div class="snowflake">
+                ❆
+            </div>
+            <div class="snowflake">
+                ❄
+            </div>
+            <div class="snowflake">
+                ❅
+            </div>
+            <div class="snowflake">
+                ❆
+            </div>
+            <div class="snowflake">
+                ❄
+            </div>
+            <div class="snowflake">
+                ❅
+            </div>
+            <div class="snowflake">
+                ❆
+            </div>
+            <div class="snowflake">
+                ❄
+            </div>
+            <div class="snowflake">
+                ❄
+            </div>
+        </div>
+
+        <div class="row content">
+            <div class="col-sm-3 sidenav">
+                <div class="user">
+                    <img src="./images/avatar.png" alt="" class="img-thumbnail avatar" />
+                    <h3>Le Hoang Ngan</h3>
+                    <h4>Software Engineer</h4>
+                </div>
+                <ul class="nav nav-pills nav-stacked">
+                    <li onclick="liOnclick(this)" id="1">
+                        <a href="#">
+                            <div class="icon">
+                                <i class="fa fa-exclamation-circle fa-lg" aria-hidden="true"></i>
+                                <i class="fa fa-exclamation-circle fa-lg" aria-hidden="true"></i>
+                            </div>
+                            <div class="name">
+                                <span data-text="Information">Information</span>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li onclick="liOnclick(this)" id="2">
+                        <a class="rotate" href="#">
+                            <div class="icon">
+                                <i class="fa fa-cogs" aria-hidden="true"></i>
+                                <i class="fa fa-cogs" aria-hidden="true"></i>
+                            </div>
+                            <div class="name">
+                                <span data-text="Technical Skills">Technical Skills</span>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li onclick="liOnclick(this)" id="3">
+                        <a class="rotate" href="#">
+                            <div class="icon">
+                                <i class="fa fa-users" aria-hidden="true"></i>
+                                <i class="fa fa-users" aria-hidden="true"></i>
+                            </div>
+                            <div class="name">
+                                <span data-text="Experience">Experience</span>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li onclick="liOnclick(this)" id="4">
+                        <a class="rotate" href="#">
+                            <div class="icon">
+                                <i class="fa fa-bar-chart" aria-hidden="true"></i>
+                                <i class="fa fa-bar-chart" aria-hidden="true"></i>
+                            </div>
+                            <div class="name">
+                                <span data-text="Skill Metrics">Skill Metrics</span>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li onclick="liOnclick(this)" id="5">
+                        <a class="rotate" href="#">
+                            <div class="icon">
+                                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                            </div>
+                            <div class="name">
+                                <span data-text="Education">Education</span>
+                            </div>
+                        </a>
+                    </li>
+                </ul><br>
+            </div>
+            <div class="col-sm-9 infor">
+                <h4><small>RECENT POSTS</small></h4>
+                <hr>
+                <h2>I Love Food</h2>
+                <h5><span class="glyphicon glyphicon-time"></span> Post by Jane Dane, Sep 27, 2015.</h5>
+                <h5><span class="label label-danger">Food</span> <span class="label label-primary">Ipsum</span></h5><br>
+                <p>Food is my passion. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <br><br>
+
+                <h4><small>RECENT POSTS</small></h4>
+                <hr>
+                <h2>Officially Blogging</h2>
+                <h5><span class="glyphicon glyphicon-time"></span> Post by John Doe, Sep 24, 2015.</h5>
+                <h5><span class="label label-success">Lorem</span></h5><br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur
+                    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <hr>
+
+                <h4>Leave a Comment:</h4>
+            </div>
+            <div class="col-sm-9 tech">
+                <h2>Asp.net skill</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur
+                    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="col-sm-9 exp">
+                <h2>3 year exp</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur
+                    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="col-sm-9 skill">
+                <h2>communication skill</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur
+                    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="col-sm-9 edu">
+                <h2>Can Tho university</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur
+                    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+
+        </div>
+    </main>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="script.js"></script>
+
+</html>
