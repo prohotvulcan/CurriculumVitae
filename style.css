@@ -19,6 +19,7 @@ main {
     background: linear-gradient( to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
     border-radius: 2rem;
     padding: 10px;
+    min-height: 80vh;
 }
 
 .row.content {
@@ -28,7 +29,7 @@ main {
     background: linear-gradient( to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
     border-radius: 2rem;
     z-index: 4;
-    backdrop-filter: blur(0.1rem);
+    backdrop-filter: blur(0.2rem);
     display: table;
 }
 
@@ -70,6 +71,7 @@ p {
 .nav li a {
     text-decoration: none;
     display: flex;
+    cursor: pointer;
 }
 
 .nav li a .icon {
@@ -146,13 +148,19 @@ p {
 
 @media screen and (max-width: 1700px) {
     .sidenav {
-        height: auto;
         padding: 15px;
-        width: 100%;
     }
     .row.content {
         height: auto;
         width: 90%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .sidenav {
+        min-height: auto;
+        padding: 15px;
+        width: 100%;
     }
 }
 

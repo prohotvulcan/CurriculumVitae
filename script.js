@@ -68,7 +68,3 @@ function liOnclick(e) {
             break;
     }
 }
-
-setTimeout(function(params) {
-
-}, 20)
